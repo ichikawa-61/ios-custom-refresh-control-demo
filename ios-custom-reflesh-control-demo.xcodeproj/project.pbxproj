@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA5C94F1EC90CF700F28EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA5C94E1EC90CF700F28EE0 /* AppDelegate.swift */; };
+		BCA5C9511EC90CF700F28EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA5C9501EC90CF700F28EE0 /* ViewController.swift */; };
+		BCA5C9541EC90CF700F28EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA5C9521EC90CF700F28EE0 /* Main.storyboard */; };
+		BCA5C9561EC90CF700F28EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA5C9551EC90CF700F28EE0 /* Assets.xcassets */; };
+		BCA5C9591EC90CF700F28EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA5C9571EC90CF700F28EE0 /* LaunchScreen.storyboard */; };
+		BCA5C9641EC90CF700F28EE0 /* ios_custom_reflesh_control_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA5C9631EC90CF700F28EE0 /* ios_custom_reflesh_control_demoTests.swift */; };
+		BCD771B31EC92B1E00993F15 /* UIView+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD771B21EC92B1E00993F15 /* UIView+Rotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCA5C9601EC90CF700F28EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA5C9431EC90CF700F28EE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA5C94A1EC90CF700F28EE0;
+			remoteInfo = "ios-custom-reflesh-control-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCA5C94B1EC90CF700F28EE0 /* ios-custom-reflesh-control-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-custom-reflesh-control-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA5C94E1EC90CF700F28EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCA5C9501EC90CF700F28EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCA5C9531EC90CF700F28EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA5C9551EC90CF700F28EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA5C9581EC90CF700F28EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA5C95A1EC90CF700F28EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA5C95F1EC90CF700F28EE0 /* ios-custom-reflesh-control-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-custom-reflesh-control-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA5C9631EC90CF700F28EE0 /* ios_custom_reflesh_control_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_custom_reflesh_control_demoTests.swift; sourceTree = "<group>"; };
+		BCA5C9651EC90CF700F28EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD771B21EC92B1E00993F15 /* UIView+Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Rotation.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA5C9481EC90CF700F28EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA5C95C1EC90CF700F28EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA5C9421EC90CF600F28EE0 = {
+			isa = PBXGroup;
+			children = (
+				BCA5C94C1EC90CF700F28EE0 /* Products */,
+				BCA5C94D1EC90CF700F28EE0 /* ios-custom-reflesh-control-demo */,
+				BCA5C9621EC90CF700F28EE0 /* ios-custom-reflesh-control-demoTests */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA5C94C1EC90CF700F28EE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5C94B1EC90CF700F28EE0 /* ios-custom-reflesh-control-demo.app */,
+				BCA5C95F1EC90CF700F28EE0 /* ios-custom-reflesh-control-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA5C94D1EC90CF700F28EE0 /* ios-custom-reflesh-control-demo */ = {
+			isa = PBXGroup;
+			children = (
+				BCD771B51EC92D9300993F15 /* Controllers */,
+				BCD771B41EC92D8A00993F15 /* Extensions */,
+				BCA5C94E1EC90CF700F28EE0 /* AppDelegate.swift */,
+				BCA5C9551EC90CF700F28EE0 /* Assets.xcassets */,
+				BCA5C95A1EC90CF700F28EE0 /* Info.plist */,
+				BCA5C9571EC90CF700F28EE0 /* LaunchScreen.storyboard */,
+			);
+			path = "ios-custom-reflesh-control-demo";
+			sourceTree = "<group>";
+		};
+		BCA5C9621EC90CF700F28EE0 /* ios-custom-reflesh-control-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5C9651EC90CF700F28EE0 /* Info.plist */,
+				BCA5C9631EC90CF700F28EE0 /* ios_custom_reflesh_control_demoTests.swift */,
+			);
+			path = "ios-custom-reflesh-control-demoTests";
+			sourceTree = "<group>";
+		};
+		BCD771B41EC92D8A00993F15 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BCD771B21EC92B1E00993F15 /* UIView+Rotation.swift */,
+			);
+			name = Extensions;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BCD771B51EC92D9300993F15 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5C9521EC90CF700F28EE0 /* Main.storyboard */,
+				BCA5C9501EC90CF700F28EE0 /* ViewController.swift */,
+			);
+			name = Controllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA5C94A1EC90CF700F28EE0 /* ios-custom-reflesh-control-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA5C9681EC90CF700F28EE0 /* Build configuration list for PBXNativeTarget "ios-custom-reflesh-control-demo" */;
+			buildPhases = (
+				BCA5C9471EC90CF700F28EE0 /* Sources */,
+				BCA5C9481EC90CF700F28EE0 /* Frameworks */,
+				BCA5C9491EC90CF700F28EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-custom-reflesh-control-demo";
+			productName = "ios-custom-reflesh-control-demo";
+			productReference = BCA5C94B1EC90CF700F28EE0 /* ios-custom-reflesh-control-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCA5C95E1EC90CF700F28EE0 /* ios-custom-reflesh-control-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA5C96B1EC90CF700F28EE0 /* Build configuration list for PBXNativeTarget "ios-custom-reflesh-control-demoTests" */;
+			buildPhases = (
+				BCA5C95B1EC90CF700F28EE0 /* Sources */,
+				BCA5C95C1EC90CF700F28EE0 /* Frameworks */,
+				BCA5C95D1EC90CF700F28EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA5C9611EC90CF700F28EE0 /* PBXTargetDependency */,
+			);
+			name = "ios-custom-reflesh-control-demoTests";
+			productName = "ios-custom-reflesh-control-demoTests";
+			productReference = BCA5C95F1EC90CF700F28EE0 /* ios-custom-reflesh-control-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA5C9431EC90CF700F28EE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kushida　Eiji";
+				TargetAttributes = {
+					BCA5C94A1EC90CF700F28EE0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UE5DCQPTRB;
+						ProvisioningStyle = Automatic;
+					};
+					BCA5C95E1EC90CF700F28EE0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UE5DCQPTRB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCA5C94A1EC90CF700F28EE0;
+					};
+				};
+			};
+			buildConfigurationList = BCA5C9461EC90CF700F28EE0 /* Build configuration list for PBXProject "ios-custom-reflesh-control-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA5C9421EC90CF600F28EE0;
+			productRefGroup = BCA5C94C1EC90CF700F28EE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA5C94A1EC90CF700F28EE0 /* ios-custom-reflesh-control-demo */,
+				BCA5C95E1EC90CF700F28EE0 /* ios-custom-reflesh-control-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA5C9491EC90CF700F28EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA5C9591EC90CF700F28EE0 /* LaunchScreen.storyboard in Resources */,
+				BCA5C9561EC90CF700F28EE0 /* Assets.xcassets in Resources */,
+				BCA5C9541EC90CF700F28EE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA5C95D1EC90CF700F28EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA5C9471EC90CF700F28EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA5C9511EC90CF700F28EE0 /* ViewController.swift in Sources */,
+				BCA5C94F1EC90CF700F28EE0 /* AppDelegate.swift in Sources */,
+				BCD771B31EC92B1E00993F15 /* UIView+Rotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA5C95B1EC90CF700F28EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA5C9641EC90CF700F28EE0 /* ios_custom_reflesh_control_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA5C9611EC90CF700F28EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA5C94A1EC90CF700F28EE0 /* ios-custom-reflesh-control-demo */;
+			targetProxy = BCA5C9601EC90CF700F28EE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCA5C9521EC90CF700F28EE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA5C9531EC90CF700F28EE0 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		BCA5C9571EC90CF700F28EE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA5C9581EC90CF700F28EE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA5C9661EC90CF700F28EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCA5C9671EC90CF700F28EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA5C9691EC90CF700F28EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-custom-reflesh-control-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-custom-reflesh-control-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCA5C96A1EC90CF700F28EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-custom-reflesh-control-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-custom-reflesh-control-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BCA5C96C1EC90CF700F28EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-custom-reflesh-control-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-custom-reflesh-control-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-custom-reflesh-control-demo.app/ios-custom-reflesh-control-demo";
+			};
+			name = Debug;
+		};
+		BCA5C96D1EC90CF700F28EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UE5DCQPTRB;
+				INFOPLIST_FILE = "ios-custom-reflesh-control-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-custom-reflesh-control-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-custom-reflesh-control-demo.app/ios-custom-reflesh-control-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA5C9461EC90CF700F28EE0 /* Build configuration list for PBXProject "ios-custom-reflesh-control-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA5C9661EC90CF700F28EE0 /* Debug */,
+				BCA5C9671EC90CF700F28EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA5C9681EC90CF700F28EE0 /* Build configuration list for PBXNativeTarget "ios-custom-reflesh-control-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA5C9691EC90CF700F28EE0 /* Debug */,
+				BCA5C96A1EC90CF700F28EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA5C96B1EC90CF700F28EE0 /* Build configuration list for PBXNativeTarget "ios-custom-reflesh-control-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA5C96C1EC90CF700F28EE0 /* Debug */,
+				BCA5C96D1EC90CF700F28EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA5C9431EC90CF700F28EE0 /* Project object */;
+}
